@@ -1,0 +1,47 @@
+{
+  "name": "zen-flat-dark",
+  "displayName": "Zen Flat Dark Theme",
+  "description": "Flat Dark Theme with lots of zen",
+  "version": "0.0.1",
+  "publisher": "oub",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "zen",
+    "flat"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "zen-flat-dark-theme",
+        "label": "Zen Flat Dark",
+        "uiTheme": "vs",
+        "path": "./themes/zen-flat-dark.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#ececec",
+    "theme": "light"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://github.com/oub/vscode-zen-flat-dark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oub/vscode-zen-flat-dark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oub/vscode-zen-flat-dark/issues"
+  },
+  "__metadata": {
+    "id": "8c1362f8-5032-4201-9794-9e389da41fff",
+    "publisherId": "177932fc-042d-4e07-a88f-6c5fe388a722",
+    "publisherDisplayName": "Olivier Cuenot"
+  }
+}
